@@ -1,0 +1,644 @@
+*{
+    font-family:monospace;
+}
+        /************************************ Navbar Start ************************************/
+.nav{
+    position: relative;
+    background-color: white;
+    width: 1349px;
+    height: 120px;
+    margin-top: -8px;
+    margin-left: -8px;
+    box-shadow: 0px 4px 8px -4px silver;
+}
+
+.img1{
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 30px;
+}
+
+.nav1{
+    position: absolute;
+    top: 45px;
+    left: 350px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav1::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav1:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav1:hover{
+    color: #84ca3d;
+}
+
+.nav2{
+    position: absolute;
+    top: 45px;
+    left: 420px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav2::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav2:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav2:hover{
+    color: #84ca3d;
+}
+
+.nav3{
+    position: absolute;
+    top: 45px;
+    left: 520px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav3::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav3:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav3:hover{
+    color: #84ca3d;
+}
+
+.nav4{
+    position: absolute;
+    top: 45px;
+    left: 620px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav4::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav4:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav4:hover{
+    color: #84ca3d;
+}
+
+.nav5{
+    position: absolute;
+    top: 45px;
+    left: 690px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav5::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav5:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav5:hover{
+    color: #84ca3d;
+}
+
+.nav6{
+    position: absolute;
+    top: 45px;
+    left: 798px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav6::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav6:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav6:hover{
+    color: #84ca3d;
+}
+
+.nav7{
+    position: absolute;
+    top: 18px;
+    left: 920px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 2px solid #84ca3d;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #84ca3d 50%, black 50%)right;
+    background-size: 200%;
+    transition: .5s ease-in-out;
+}
+.nav7:hover{
+    cursor: pointer;
+    background-position: left;
+    border: 2px solid black;
+}
+
+.img2{
+    position: absolute;
+    right: 225px;
+    width: 18px;
+    top: 45px;
+}
+.img2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img3{
+    position: absolute;
+    right: 185px;
+    width: 20px;
+    top: 45px;
+}
+.img3:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img4{
+    position: absolute;
+    right: 130px;
+    width: 40px;
+    top: 40px;
+}
+.img4:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img5{
+    position: absolute;
+    right: 85px;
+    width: 40px;
+    top: 35px;
+}
+.img5:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img6{
+    position: absolute;
+    right: 50px;
+    width: 18px;
+    top: 48px;
+}
+.img6:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+    /************************************ Navbar End ************************************/
+
+
+
+
+
+
+
+
+    /************************************ Contact Us Body Part Start ************************************/
+
+
+
+
+.contactusbody1{
+    position: relative;
+    background-color: #fffbfb;
+    width: 1340px;
+    margin-top: 5px;
+    height: 550px;
+    left: 0px;
+}
+
+.contactustext1{
+    position: absolute;
+    font-size: 50px;
+    top: 1px;
+    left: 100px;
+}
+
+.contactustext2{
+    position: absolute;
+    font-size: 15px;
+    top: 80px;
+    left: 100px;
+    line-height: 2;
+}
+
+.contactustext3{
+    position: absolute;
+    font-size: 15px;
+    top: 170px;
+    left: 100px;
+    line-height: 2;
+}
+
+.contactustext4{
+    position: absolute;
+    font-size: 15px;
+    top: 170px;
+    left: 400px;
+    line-height: 2;
+}
+
+.contactustext5{
+    position: absolute;
+    font-size: 15px;
+    top: 370px;
+    left: 100px;
+    color: #84ca3d;
+}
+
+.contactustext5:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.contactustext6{
+    position: absolute;
+    font-size: 20px;
+    top: 363px;
+    left: 203px;
+}
+
+.contactustext7{
+    position: absolute;
+    font-size: 15px;
+    top: 370px;
+    left: 220px;
+    color: #84ca3d;
+}
+
+.contactustext7:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.contactustext8{
+    position: absolute;
+    font-size: 15px;
+    top: 400px;
+    left: 100px;
+    color: #84ca3d;
+}
+
+.contactustext8:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.contactustext9{
+    position: absolute;
+    font-size: 20px;
+    top: 393px;
+    left: 195px;
+}
+
+.contactustext10{
+    position: absolute;
+    font-size: 15px;
+    top: 400px;
+    left: 212px;
+    color: #84ca3d;
+}
+
+.contactustext10:hover{
+    cursor: pointer;
+    color: black;
+}
+.contactustext11{
+    position: absolute;
+    font-size: 15px;
+    top: 430px;
+    left: 100px;
+}
+span{
+    color: #84ca3d;
+}
+span:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.formtext1{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 200px;
+    font-size: 15px;
+    border: 2px solid #dadada;
+    outline: none;
+
+}
+.formtext1:focus{
+    border: 2px solid #84ca3d;
+}
+
+.formtext2{
+    position: absolute;
+    top: 115px;
+    right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 200px;
+    font-size: 15px;
+    border: 2px solid #dadada;
+    outline: none;
+
+}
+.formtext2:focus{
+    border: 2px solid #84ca3d;
+}
+
+.formtext3{
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 200px;
+    font-size: 15px;
+    border: 2px solid #dadada;
+    outline: none;
+
+}
+.formtext3:focus{
+    border: 2px solid #84ca3d;
+}
+
+.formtext4{
+    position: absolute;
+    top: 245px;
+    right: 100px;
+    padding-top: 15px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 200px;
+    font-size: 15px;
+    border: 2px solid #dadada;
+    outline: none;
+
+}
+.formtext4:focus{
+    border: 2px solid #84ca3d;
+}
+
+.formtext5{
+    position: absolute;
+    top: 420px;
+    right: 334px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #84ca3d 50%, black 50%)right;
+    background-size: 200%;
+    transition: .5s ease-in-out;
+}
+
+.formtext5:hover{
+    cursor: pointer;
+    background-position: left;
+}
+
+
+
+/************************************ Contact Us Body Part Start ************************************/
+
+
+
+
+
+
+
+
+
+/************************************ Footer Part Start ************************************/
+
+.footertext1{
+    position: relative;
+    background-color: #84ca3d;
+    width: 1349px;
+    height: 75px;   
+    top: 0px;
+    margin-left: -8px;
+    margin-bottom: 50px;
+}
+
+.footerh1{
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    color: white;
+}
+
+
+.footertext2{
+    position: relative;
+}
+
+.logo1{
+    position: absolute;
+    width: 250px;
+    top: 0px;
+    left: 550px;
+    padding-bottom: 50px;   
+}
+
+.logo2{
+    position: absolute;
+    width: 15px;
+    top: 180px;
+    left: 530px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo2:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo3{
+    position: absolute;
+    width: 15px;
+    top: 180px;
+    left: 590px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo3:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo4{
+    position: absolute;
+    width: 20px;
+    top: 180px;
+    left: 650px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo4:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo5{
+    position: absolute;
+    width: 15px;
+    top: 180px;
+    left: 715px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo5:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo6{
+    position: absolute;
+    width: 15px;
+    top: 180px;
+    left: 775px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo6:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+.footertext3{
+    position: relative;
+    background-color: black;
+    width: 1349px;
+    height: 75px;   
+    margin-top: 300px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+}
+
+.footerh2{
+    position: absolute;
+    color: #84ca3d;
+    font-size: 15px;
+    top: 13px;
+    left: 350px;
+}
+
+
+ /************************************ Footer Part End ************************************/

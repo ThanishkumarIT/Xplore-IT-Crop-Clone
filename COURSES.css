@@ -1,0 +1,1202 @@
+*{
+    font-family:monospace;
+}
+        /************************************ Navbar Start ************************************/
+.nav{
+    position: relative;
+    background-color: white;
+    width: 1349px;
+    height: 120px;
+    margin-top: -8px;
+    margin-left: -8px;
+    box-shadow: 0px 4px 8px -4px silver;
+}
+
+.img1{
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 30px;
+}
+
+.nav1{
+    position: absolute;
+    top: 45px;
+    left: 350px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav1::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav1:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav1:hover{
+    color: #84ca3d;
+}
+
+.nav2{
+    position: absolute;
+    top: 45px;
+    left: 420px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav2::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav2:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav2:hover{
+    color: #84ca3d;
+}
+
+.nav3{
+    position: absolute;
+    top: 45px;
+    left: 520px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav3::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav3:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav3:hover{
+    color: #84ca3d;
+}
+
+.nav4{
+    position: absolute;
+    top: 45px;
+    left: 620px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav4::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav4:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav4:hover{
+    color: #84ca3d;
+}
+
+.nav5{
+    position: absolute;
+    top: 45px;
+    left: 690px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav5::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav5:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav5:hover{
+    color: #84ca3d;
+}
+
+.nav6{
+    position: absolute;
+    top: 45px;
+    left: 798px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.nav6::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    background-color: #84ca3d;
+    transition: 300ms;
+}
+.nav6:hover::after{
+    cursor: pointer;
+    width: 100%;
+    color: #84ca3d;
+}
+.nav6:hover{
+    color: #84ca3d;
+}
+
+.nav7{
+    position: absolute;
+    top: 18px;
+    left: 920px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 2px solid #84ca3d;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #84ca3d 50%, black 50%)right;
+    background-size: 200%;
+    transition: .5s ease-in-out;
+}
+.nav7:hover{
+    cursor: pointer;
+    background-position: left;
+    border: 2px solid black;
+}
+
+.img2{
+    position: absolute;
+    right: 225px;
+    width: 18px;
+    top: 45px;
+}
+.img2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img3{
+    position: absolute;
+    right: 185px;
+    width: 20px;
+    top: 45px;
+}
+.img3:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img4{
+    position: absolute;
+    right: 130px;
+    width: 40px;
+    top: 40px;
+}
+.img4:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img5{
+    position: absolute;
+    right: 85px;
+    width: 40px;
+    top: 35px;
+}
+.img5:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img6{
+    position: absolute;
+    right: 50px;
+    width: 18px;
+    top: 48px;
+}
+.img6:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+    /************************************ Navbar End ************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /************************************ Courses Body Part Start ************************************/
+
+
+.coursesbody{
+    position: relative;
+    left: 0px;
+    background-color: #fffbfb;    
+    margin-top: 5px;
+    width: 1340px;
+    height: 1350px;
+}
+
+.text1{
+    position: absolute;
+    color: #84ca3d;
+    font-size: 18px;
+    top: 80px;
+    left: 580px;
+}
+
+.text2{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    top: 100px;
+    left: 450px;
+}
+
+.text3{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    top: 190px;
+    left: 350px;
+    text-align: center;
+}
+
+
+
+
+
+
+.img7 h1, .img8 h1, .img9 h1, .img10 h1, .img11 h1, .img12 h1, .img13 h1, 
+.img14 h1, .img15 h1, .img16 h1, .img18 h1, .img20 h1, .img21 h1{
+    padding-top: 40px;
+}
+.img17 h1{
+    padding-top: 20px;
+}
+.img19 h1{
+    padding-top: 20px;
+}
+.img22 h1{
+    padding-top: 20px;
+}
+.img23 h1{
+    padding-top: 20px;
+}
+
+.img7{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 450px;
+    left: 41px;
+    transition: all 0.9s ease;
+}
+  
+.img7::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2023/01/web-development-1.png');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img7:hover::after{
+    opacity: 0.1;
+}
+
+.img7:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+.img8{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 450px;
+    left: 370px;
+    transition: all 0.9s ease;
+}
+  
+.img8::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/XIC-Website-Courses-600px-X-400-px-600x400.png');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img8:hover::after{
+    opacity: 0.1;
+}
+
+.img8:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+.img9{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 450px;
+    left: 700px;
+    transition: all 0.9s ease;
+}
+  
+.img9::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/9-2-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img9:hover::after{
+    opacity: 0.1;
+}
+
+.img9:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+
+.img10{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 450px;
+    left: 1030px;
+    transition: all 0.9s ease;
+}
+  
+.img10::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/17-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img10:hover::after{
+    opacity: 0.1;
+}
+
+.img10:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img11{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 680px;
+    left: 41px;
+    transition: all 0.9s ease;
+}
+  
+.img11::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/16-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img11:hover::after{
+    opacity: 0.1;
+}
+
+.img11:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+    background-position: left;
+}
+
+
+
+.img12{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 680px;
+    left: 370px;
+    transition: all 0.9s ease;
+}
+  
+.img12::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/14-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img12:hover::after{
+    opacity: 0.1;
+}
+
+.img12:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+.img13{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 680px;
+    left: 700px;
+    transition: all 0.9s ease;
+}
+  
+.img13::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/5-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img13:hover::after{
+    opacity: 0.1;
+}
+
+.img13:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+
+.img14{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 680px;
+    left: 1030px;
+    transition: all 0.9s ease;
+}
+  
+.img14::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/15-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img14:hover::after{
+    opacity: 0.1;
+}
+
+.img14:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+.img15{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 910px;
+    left: 41px;
+    transition: all 0.9s ease;
+}
+  
+.img15::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/13-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img15:hover::after{
+    opacity: 0.1;
+}
+
+.img15:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+    background-position: left;
+}
+
+
+
+.img16{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 910px;
+    left: 370px;
+    transition: all 0.9s ease;
+}
+  
+.img16::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/3-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img16:hover::after{
+    opacity: 0.1;
+}
+
+.img16:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+.img17{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 910px;
+    left: 700px;
+    transition: all 0.9s ease;
+}
+  
+.img17::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/4-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img17:hover::after{
+    opacity: 0.1;
+}
+
+.img17:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+
+.img18{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 910px;
+    left: 1030px;
+    transition: all 0.9s ease;
+}
+  
+.img18::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/8-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img18:hover::after{
+    opacity: 0.1;
+}
+
+.img18:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img19{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 1140px;
+    left: 41px;
+    transition: all 0.9s ease;
+}
+  
+.img19::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/6-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img19:hover::after{
+    opacity: 0.1;
+}
+
+.img19:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+    background-position: left;
+}
+
+
+
+.img20{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 1140px;
+    left: 370px;
+    transition: all 0.9s ease;
+}
+  
+.img20::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/11-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img20:hover::after{
+    opacity: 0.1;
+}
+
+.img20:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+.img21{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 1140px;
+    left: 700px;
+    transition: all 0.9s ease;
+}
+  
+.img21::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/8-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img21:hover::after{
+    opacity: 0.1;
+}
+
+.img21:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+
+
+.img22{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 1140px;
+    left: 1030px;
+    transition: all 0.9s ease;
+}
+  
+.img22::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/12-1-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img22:hover::after{
+    opacity: 0.1;
+}
+
+.img22:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+}
+
+
+
+
+
+
+
+
+.img23{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    top: 1370px;
+    left: 41px;
+    transition: all 0.9s ease;
+}
+  
+.img23::after{
+    content: "";
+    background-image: url('https://www.xploreitcorp.com/wp-content/uploads/2022/01/2-600x400.jpg');
+    background-size: 300px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    transition: all 0.9s ease;
+}
+  
+.img23:hover::after{
+    opacity: 0.1;
+}
+
+.img23:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #84ca3d;
+    background-position: left;
+}
+
+
+        /************************************ Courses Body Part End ************************************/
+
+
+
+
+
+
+
+
+
+        
+    /************************************ Footer Part Start ************************************/
+
+.footertext1{
+    position: relative;
+    background-color: #84ca3d;
+    width: 1349px;
+    height: 75px;   
+    top: 130px;
+    margin-left: -8px;
+    margin-bottom: 50px;
+}
+
+.footerh1{
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    color: white;
+}
+
+
+.footertext2{
+    position: relative;
+}
+
+.logo1{
+    position: absolute;
+    width: 250px;
+    top: 100px;
+    left: 550px;
+    padding-bottom: 50px;   
+}
+
+.logo2{
+    position: absolute;
+    width: 15px;
+    top: 280px;
+    left: 530px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo2:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo3{
+    position: absolute;
+    width: 15px;
+    top: 280px;
+    left: 590px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo3:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo4{
+    position: absolute;
+    width: 20px;
+    top: 280px;
+    left: 650px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo4:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo5{
+    position: absolute;
+    width: 15px;
+    top: 280px;
+    left: 715px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo5:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+
+.logo6{
+    position: absolute;
+    width: 15px;
+    top: 280px;
+    left: 775px;
+    background-color: #84ca3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo6:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+
+.footertext3{
+    position: relative;
+    background-color: black;
+    width: 1349px;
+    height: 75px;   
+    margin-top: 400px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+}
+
+.footerh2{
+    position: absolute;
+    color: #84ca3d;
+    font-size: 15px;
+    top: 13px;
+    left: 350px;
+}
+
+
+ /************************************ Footer Part End ************************************/
